@@ -172,7 +172,7 @@ class ActivityController extends Controller
             $update = $activity->update($data);
             if($activityOldInfo->activity_approval_status_id != $data['activity_approval_status_id'])
             {
-    
+
             }
 
             $activityResponse = ResponseHelper::makeActivitynData($activity);
